@@ -1,0 +1,20 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    <class name ="beans.Student" table ="student" schema = "pioneer">
+    <!-- for primary key data type -->
+    <id name = "sid"  >
+    <generator class="assigned"></generator>
+    </id>
+    <!--  for non primary key data type -->
+    <property name ="sname"  ></property>
+     <property name ="semail" ></property>
+     <property name="smarks"></property>
+     
+      
+        
+    </class>
+    
+    
+    </hibernate-mapping>

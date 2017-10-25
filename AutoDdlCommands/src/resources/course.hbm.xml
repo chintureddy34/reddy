@@ -1,0 +1,22 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    <class name ="beans.Course" table ="course" schema = "pioneer">
+    <!-- for primary key data type -->
+    <id name = "cid"  >
+    <generator class="assigned"></generator>
+    </id>
+    <!--  for non primary key data type -->
+    <property name ="cname"  ></property>
+    <property name ="fee"></property>
+       <property name ="csubject"></property>
+     
+     
+     
+      
+        
+    </class>
+    
+    
+    </hibernate-mapping>

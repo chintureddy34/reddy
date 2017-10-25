@@ -1,0 +1,19 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    <class name ="beans.Employee" table ="employee" schema = "pioneer">
+    <!-- for primary key data type -->
+    <id name = "eid"  >
+    <generator class="assigned"></generator>
+    </id>
+    <!--  for non primary key data type -->
+    <property name ="ename"  ></property>
+     <property name ="eemail" ></property>
+     
+      
+        
+    </class>
+    
+    
+    </hibernate-mapping>
